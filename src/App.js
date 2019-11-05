@@ -35,13 +35,17 @@ class App extends React.Component {
         });
     }
 
-    changeStatus = (status, task) => {
+    changeStatus = (task, isDone) => {
         let taskCopy = this.state.tasks.map(t => {
-            if (t == task) return {...t, isDone: status};
-            else return t;
+            if (t != task) {
+                return t;
+            }
+            else {
+                return {...t, isDone: isDone};
+            }
         });
         this.setState({
-            filterValue: taskCopy
+            tasks: taskCopy
         });
     }
     render = () => {

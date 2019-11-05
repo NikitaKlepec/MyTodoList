@@ -4,7 +4,7 @@
 
 .todoList {
   width: 500px;
-  margin: 0 auto;
+  margin-left: 100px ;
 }
 
 .todoList > div {
@@ -17,4 +17,11 @@
 
 .filter-active{
   background-color:red;
+}
+.error{
+    border-color: red;
+}
+
+.todoList-task.done {
+    opacity: 0.5;
 }
