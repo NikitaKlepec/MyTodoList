@@ -3,9 +3,10 @@ import './App.css';
 import TodoListTask from "./TodoListTask";
 
 class TodoListTasks extends React.Component {
+
     render = () => {
         let taskElement = this.props.tasks.map(task =>
-            <TodoListTask title={task.title} isDone={task.isDone} priority={task.priority}/>)
+            <TodoListTask task={task} changeStatus={this.props.changeStatus}/>)
 
         return (
             <div className="todoList-tasks">
