@@ -24,7 +24,22 @@ class App extends React.Component {
             this.saveState();
         });
 
+<<<<<<< HEAD
         this.nextTodoListId++;
+=======
+    changeStatus = (task, isDone) => {
+        let taskCopy = this.state.tasks.map(t => {
+            if (t != task) {
+                return t;
+            }
+            else {
+                return {...t, isDone: isDone};
+            }
+        });
+        this.setState({
+            tasks: taskCopy
+        });
+>>>>>>> a1307adcbdd151f8f6474155c2ec3de42efd20fd
     }
 
     // componentDidMount() {

@@ -34,7 +34,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/06-for-students" />
+>>>>>>> a1307adcbdd151f8f6474155c2ec3de42efd20fd
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -76,6 +80,7 @@
       <workItem from="1571842882843" duration="1691000" />
       <workItem from="1572917384188" duration="1233000" />
       <workItem from="1572919550483" duration="1036000" />
+<<<<<<< HEAD
       <workItem from="1572920774582" duration="793000" />
       <workItem from="1582560079663" duration="1722000" />
     </task>
@@ -86,6 +91,17 @@
       <option name="project" value="LOCAL" />
       <updated>1572921569466</updated>
     </task>
+=======
+      <workItem from="1572920774582" duration="15544000" />
+    </task>
+    <task id="LOCAL-00001" summary="add Filter">
+      <created>1572921569466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572921569466</updated>
+    </task>
+>>>>>>> a1307adcbdd151f8f6474155c2ec3de42efd20fd
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
@@ -109,12 +125,15 @@
     <MESSAGE value="add Filter" />
     <option name="LAST_COMMIT_MESSAGE" value="add Filter" />
   </component>
+<<<<<<< HEAD
   <component name="WindowStateProjectService">
     <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1582564110189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582564110189" />
   </component>
+=======
+>>>>>>> a1307adcbdd151f8f6474155c2ec3de42efd20fd
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
